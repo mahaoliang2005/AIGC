@@ -1,0 +1,338 @@
+[
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/163",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/163",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/163",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/163",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/163",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/163",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/28",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/28",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/28",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/28",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/28",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/28",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/6",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/6",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/6",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/6",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/6",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/6",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/70",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/70",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/70",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/70",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/70",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/70",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/62",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/62",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/62",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/62",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/62",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/62",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/57",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/57",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/57",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/57",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/57",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/57",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/35",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/35",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/35",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/35",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/35",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/35",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/26",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/26",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/26",
+    "model": "qwen2.5:3b",
+    "prompt_version": "en",
+    "repeat": 3
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/26",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 1
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/26",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 2
+  },
+  {
+    "stage": "pilot",
+    "task_id": "HumanEval/26",
+    "model": "qwen2.5:3b",
+    "prompt_version": "zh",
+    "repeat": 3
+  }
+]

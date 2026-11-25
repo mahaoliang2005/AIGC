@@ -1,0 +1,49 @@
+{
+  "source_archive_sha256": "a2df13d962d6d9191c53be71935af327fdb7fa30263f8f5da32f355d3821e1f9",
+  "preparation": {
+    "precision": "BF16",
+    "merge": "PEFT merge_and_unload(safe_merge=True)",
+    "verified_adapter_tensor_count": 392,
+    "torch": "2.5.0+cu124",
+    "transformers": "4.52.4",
+    "peft": "0.15.2",
+    "tokenizer_source": "exact handoff tokenizer and chat template",
+    "tokenizer_config_compatibility": "Mapped list of extra_special_tokens to additional_special_tokens; token IDs and special tokens verified",
+    "converter": "llama.cpp b5400"
+  },
+  "source": {
+    "name": "qwen_bilingual_v1",
+    "adapter_path": "/root/autodl-tmp/qwen-work/runs/qwen_bilingual_v1",
+    "adapter_sha256": "a67ab0bb403626f19ecbd576218e0a6ed2e750e8deab749cf03ee1b496917dcd",
+    "base_model": {
+      "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "local_path": "/root/autodl-tmp/qwen-work/models/Qwen2.5-7B-Instruct",
+      "downloads": {
+        "model-00001-of-00004.safetensors": {
+          "size": 3945441440,
+          "sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7"
+        },
+        "model-00002-of-00004.safetensors": {
+          "size": 3864726352,
+          "sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185"
+        },
+        "model-00003-of-00004.safetensors": {
+          "size": 3864726424,
+          "sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5"
+        },
+        "model-00004-of-00004.safetensors": {
+          "size": 3556377672,
+          "sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd"
+        }
+      }
+    },
+    "task_scope": "中英文合成规则判断"
+  },
+  "ollama": {
+    "model": "qwen-bilingual-v1:bf16",
+    "manifest_digest": "f3fe6c255a17a9792e1fc165dd4bb698851d06a6063588e1d021acb2a8406014",
+    "weight_format": "BF16 GGUF",
+    "template_scope": "ChatML for single-turn tasks, using handoff default system message and special tokens"
+  }
+}

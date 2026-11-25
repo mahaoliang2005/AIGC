@@ -1,0 +1,6963 @@
+{
+  "stage": "formal",
+  "seed": 42,
+  "datasets": {
+    "humaneval": {
+      "archive": "HumanEval.jsonl.gz",
+      "sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef"
+    },
+    "humaneval_plus": {
+      "archive": "HumanEvalPlus-v0.1.10.jsonl.gz",
+      "sha256": "272720b90ac375502c8ed23cd791c2a93dfb22a911641a494da74a426c09f101"
+    }
+  },
+  "prompt_sha256": "ee635a5beaf3fecc523a3cf8aef45828a6352232857159bda657c285da96f6e6",
+  "models": {
+    "qwen25-7b-instruct-base:bf16": {
+      "backend": "ollama",
+      "base_url": "http://127.0.0.1:11434",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "model_digest": "5bf417ba57eea70eff30b9bbc6cfaca089664af46cd60bb5fe2f05385a2f1790",
+      "model_version": "5bf417ba57eea70eff30b9bbc6cfaca089664af46cd60bb5fe2f05385a2f1790",
+      "backend_version": "0.40.18",
+      "quantization": "BF16",
+      "options": {
+        "temperature": 0.2,
+        "top_p": 1.0,
+        "top_k": 0,
+        "min_p": 0.0,
+        "repeat_penalty": 1.0,
+        "num_ctx": 4096,
+        "num_predict": 2048
+      }
+    }
+  },
+  "judge": {
+    "image": "python:3.12.12-slim@sha256:f3fa41d74a768c2fce8016b98c191ae8c1bacd8f1152870a3f9f87d350920b7c",
+    "worker_sha256": "497d67c35bcd604fce196c11f24fd90cccbf5f1bbb3a47759b4ed673a63a4d99",
+    "container_sha256": "4104ec747aabf4adc1b1e6eacadf980778d37d7ed8fbc984bf9d0a016a42c544",
+    "code_extraction_sha256": "0f628bd86c833668c548da6956872a17c5ae08832533d294a9fbc576379be5b4"
+  },
+  "rows": [
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/0",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/0",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/0",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/0",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/0",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/0",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/1",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/1",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/1",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/1",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/1",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/1",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/2",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/2",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/2",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/2",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/2",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/2",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/3",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/3",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/3",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/3",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/3",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/3",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/4",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/4",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/4",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/4",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/4",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/4",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/5",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/5",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/5",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/5",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/5",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/5",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/6",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/6",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/6",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/6",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/6",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/6",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/7",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/7",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/7",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/7",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/7",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/7",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/8",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/8",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/8",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/8",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/8",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/8",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/9",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/9",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/9",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/9",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/9",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/9",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/10",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/10",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/10",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/10",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/10",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/10",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/11",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/11",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/11",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/11",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/11",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/11",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/12",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/12",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/12",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/12",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/12",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/12",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/13",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/13",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/13",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/13",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/13",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/13",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/14",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/14",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/14",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/14",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/14",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/14",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/15",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/15",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/15",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/15",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/15",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/15",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/16",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/16",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/16",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/16",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/16",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/16",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/17",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/17",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/17",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/17",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/17",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/17",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/18",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/18",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/18",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/18",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/18",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/18",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/19",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/19",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/19",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/19",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/19",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/19",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/20",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/20",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/20",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/20",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/20",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/20",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/21",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/21",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/21",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/21",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/21",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/21",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/22",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/22",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/22",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/22",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/22",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/22",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/23",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/23",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/23",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/23",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/23",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/23",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/24",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/24",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/24",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/24",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/24",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/24",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/25",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/25",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/25",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/25",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/25",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/25",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/26",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/26",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/26",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/26",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/26",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/26",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/27",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/27",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/27",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/27",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/27",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/27",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/28",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/28",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/28",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/28",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/28",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/28",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/29",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/29",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/29",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/29",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/29",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/29",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/30",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/30",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/30",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/30",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/30",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/30",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/31",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/31",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/31",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/31",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/31",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/31",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/32",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/32",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/32",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/32",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/32",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/32",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/33",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/33",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/33",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/33",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/33",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/33",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/34",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/34",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/34",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/34",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/34",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/34",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/35",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/35",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/35",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/35",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/35",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/35",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/36",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/36",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/36",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/36",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/36",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/36",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/37",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/37",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/37",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/37",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/37",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/37",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/38",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/38",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/38",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/38",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/38",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/38",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/39",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/39",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/39",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/39",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/39",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/39",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/40",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/40",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/40",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/40",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/40",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/40",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/41",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/41",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/41",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/41",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/41",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/41",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/42",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/42",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/42",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/42",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/42",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/42",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/43",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/43",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/43",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/43",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/43",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/43",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/44",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/44",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/44",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/44",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/44",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/44",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/45",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/45",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/45",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/45",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/45",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/45",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/46",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/46",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/46",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/46",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/46",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/46",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/47",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/47",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/47",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/47",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/47",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/47",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/48",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/48",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/48",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/48",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/48",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/48",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/49",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/49",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/49",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/49",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/49",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/49",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/50",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/50",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/50",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/50",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/50",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/50",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/51",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/51",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/51",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/51",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/51",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/51",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/52",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/52",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/52",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/52",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/52",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/52",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/53",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/53",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/53",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/53",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/53",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/53",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/54",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/54",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/54",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/54",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/54",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/54",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/55",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/55",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/55",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/55",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/55",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/55",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/56",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/56",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/56",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/56",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/56",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/56",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/57",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/57",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/57",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/57",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/57",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/57",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/58",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/58",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/58",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/58",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/58",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/58",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/59",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/59",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/59",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/59",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/59",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/59",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/60",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/60",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/60",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/60",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/60",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/60",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/61",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/61",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/61",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/61",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/61",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/61",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/62",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/62",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/62",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/62",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/62",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/62",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/63",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/63",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/63",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/63",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/63",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/63",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/64",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/64",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/64",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/64",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/64",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/64",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/65",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/65",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/65",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/65",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/65",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/65",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/66",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/66",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/66",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/66",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/66",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/66",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/67",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/67",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/67",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/67",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/67",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/67",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/68",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/68",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/68",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/68",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/68",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/68",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/69",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/69",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/69",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/69",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/69",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/69",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/70",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/70",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/70",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/70",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/70",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/70",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/71",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/71",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/71",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/71",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/71",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/71",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/72",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/72",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/72",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/72",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/72",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/72",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/73",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/73",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/73",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/73",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/73",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/73",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/74",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/74",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/74",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/74",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/74",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/74",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/75",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/75",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/75",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/75",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/75",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/75",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/76",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/76",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/76",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/76",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/76",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/76",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/77",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/77",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/77",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/77",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/77",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/77",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/78",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/78",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/78",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/78",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/78",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/78",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/79",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/79",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/79",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/79",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/79",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/79",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/80",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/80",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/80",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/80",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/80",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/80",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/81",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/81",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/81",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/81",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/81",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/81",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/82",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/82",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/82",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/82",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/82",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/82",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/83",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/83",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/83",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/83",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/83",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/83",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/84",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/84",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/84",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/84",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/84",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/84",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/85",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/85",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/85",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/85",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/85",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/85",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/86",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/86",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/86",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/86",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/86",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/86",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/87",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/87",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/87",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/87",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/87",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/87",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/88",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/88",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/88",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/88",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/88",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/88",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/89",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/89",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/89",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/89",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/89",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/89",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/90",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/90",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/90",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/90",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/90",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/90",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/91",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/91",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/91",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/91",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/91",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/91",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/92",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/92",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/92",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/92",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/92",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/92",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/93",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/93",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/93",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/93",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/93",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/93",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/94",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/94",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/94",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/94",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/94",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/94",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/95",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/95",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/95",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/95",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/95",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/95",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/96",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/96",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/96",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/96",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/96",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/96",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/97",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/97",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/97",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/97",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/97",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/97",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/98",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/98",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/98",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/98",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/98",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/98",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/99",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/99",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/99",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/99",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/99",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/99",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/100",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/100",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/100",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/100",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/100",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/100",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/101",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/101",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/101",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/101",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/101",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/101",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/102",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/102",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/102",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/102",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/102",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/102",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/103",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/103",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/103",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/103",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/103",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/103",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/104",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/104",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/104",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/104",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/104",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/104",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/105",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/105",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/105",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/105",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/105",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/105",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/106",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/106",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/106",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/106",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/106",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/106",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/107",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/107",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/107",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/107",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/107",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/107",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/108",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/108",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/108",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/108",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/108",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/108",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/109",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/109",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/109",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/109",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/109",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/109",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/110",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/110",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/110",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/110",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/110",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/110",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/111",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/111",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/111",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/111",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/111",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/111",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/112",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/112",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/112",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/112",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/112",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/112",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/113",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/113",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/113",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/113",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/113",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/113",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/114",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/114",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/114",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/114",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/114",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/114",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/115",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/115",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/115",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/115",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/115",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/115",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/116",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/116",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/116",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/116",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/116",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/116",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/117",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/117",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/117",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/117",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/117",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/117",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/118",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/118",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/118",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/118",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/118",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/118",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/119",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/119",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/119",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/119",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/119",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/119",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/120",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/120",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/120",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/120",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/120",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/120",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/121",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/121",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/121",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/121",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/121",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/121",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/122",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/122",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/122",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/122",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/122",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/122",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/123",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/123",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/123",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/123",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/123",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/123",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/124",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/124",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/124",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/124",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/124",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/124",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/125",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/125",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/125",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/125",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/125",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/125",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/126",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/126",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/126",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/126",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/126",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/126",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/127",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/127",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/127",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/127",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/127",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/127",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/128",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/128",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/128",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/128",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/128",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/128",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/129",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/129",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/129",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/129",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/129",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/129",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/130",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/130",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/130",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/130",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/130",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/130",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/131",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/131",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/131",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/131",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/131",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/131",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/132",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/132",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/132",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/132",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/132",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/132",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/133",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/133",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/133",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/133",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/133",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/133",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/134",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/134",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/134",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/134",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/134",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/134",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/135",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/135",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/135",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/135",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/135",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/135",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/136",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/136",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/136",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/136",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/136",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/136",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/137",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/137",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/137",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/137",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/137",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/137",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/138",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/138",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/138",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/138",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/138",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/138",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/139",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/139",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/139",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/139",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/139",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/139",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/140",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/140",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/140",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/140",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/140",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/140",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/141",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/141",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/141",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/141",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/141",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/141",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/142",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/142",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/142",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/142",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/142",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/142",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/143",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/143",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/143",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/143",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/143",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/143",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/144",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/144",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/144",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/144",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/144",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/144",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/145",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/145",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/145",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/145",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/145",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/145",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/146",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/146",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/146",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/146",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/146",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/146",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/147",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/147",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/147",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/147",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/147",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/147",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/148",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/148",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/148",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/148",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/148",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/148",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/149",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/149",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/149",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/149",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/149",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/149",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/150",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/150",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/150",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/150",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/150",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/150",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/151",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/151",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/151",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/151",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/151",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/151",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/152",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/152",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/152",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/152",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/152",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/152",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/153",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/153",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/153",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/153",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/153",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/153",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/154",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/154",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/154",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/154",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/154",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/154",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/155",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/155",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/155",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/155",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/155",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/155",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/156",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/156",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/156",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/156",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/156",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/156",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/157",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/157",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/157",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/157",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/157",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/157",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/158",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/158",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/158",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/158",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/158",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/158",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/159",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/159",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/159",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/159",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/159",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/159",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/160",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/160",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/160",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/160",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/160",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/160",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/161",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/161",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/161",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/161",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/161",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/161",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/162",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/162",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/162",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/162",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/162",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/162",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/163",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/163",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/163",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "en",
+      "repeat": 3
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/163",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 1
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/163",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 2
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/163",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "prompt_version": "zh",
+      "repeat": 3
+    }
+  ],
+  "translation_review": {
+    "method": "一位代理撰写，独立代理对照英文逐题复核",
+    "audit_sha256": "fa81369729a4f55407560ad5aa1f0c423785c10e957e584ae4d779aaa48cce88"
+  },
+  "pilot_gate": {
+    "evidence": [
+      {
+        "phase": "pilot",
+        "groups": [
+          {
+            "model": "qwen25-7b-instruct-base:bf16",
+            "language": "en",
+            "graded": 24,
+            "passed": 18
+          },
+          {
+            "model": "qwen25-7b-instruct-base:bf16",
+            "language": "zh",
+            "graded": 24,
+            "passed": 21
+          }
+        ],
+        "ceiling_reached": false,
+        "sha256": {
+          "manifest.json": "c5657cd1a8ac2c0bd569beb336bd46e3e6f137386815658da822d8980643272d",
+          "replies.jsonl": "41ecc8288090a9a6899150524174699a01dd32aabdb987194b206752702bbc0e",
+          "records.jsonl": "14e7b38fcbfe9fe77fa6e5f009dc33555f906247fbe779fa3c847a77151e9acc"
+        }
+      }
+    ],
+    "decision": null
+  }
+}

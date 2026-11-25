@@ -1,0 +1,6025 @@
+{
+  "stage": "formal",
+  "coverage": {
+    "planned": 984,
+    "received": 984,
+    "unique_recorded": 984,
+    "unique_replies": 984,
+    "not_run": [],
+    "unexpected_keys": [],
+    "duplicate_keys": [],
+    "orphan_records": [],
+    "inconsistent_records": [],
+    "missing_replies": [],
+    "ungraded": {
+      "humaneval": [],
+      "humaneval_plus": []
+    }
+  },
+  "per_task": [
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/0",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/0",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/1",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/1",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/10",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/10",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/100",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/100",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/101",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/101",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/102",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/102",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/103",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/103",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/104",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/104",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/105",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/105",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/106",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/106",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/107",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/107",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/108",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/108",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/109",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/109",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/11",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/11",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/110",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/110",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/111",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/111",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/112",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/112",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/113",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/113",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/114",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/114",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/115",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/115",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/116",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/116",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/117",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/117",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/118",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/118",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/119",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/119",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/12",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/12",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/120",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/120",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/121",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/121",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/122",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/122",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/123",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/123",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/124",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/124",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/125",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/125",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/126",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/126",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/127",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/127",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/128",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/128",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/129",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/129",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/13",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/13",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/130",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/130",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/131",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/131",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/132",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/132",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/133",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/133",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/134",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/134",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/135",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/135",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/136",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/136",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/137",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/137",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/138",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/138",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/139",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/139",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/14",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/14",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/140",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/140",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/141",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/141",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/142",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/142",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/143",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/143",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/144",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/144",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/145",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/145",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/146",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/146",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/147",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/147",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/148",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/148",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/149",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/149",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/15",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/15",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/150",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/150",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/151",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/151",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/152",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/152",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/153",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/153",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/154",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/154",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/155",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/155",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/156",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/156",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/157",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/157",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/158",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/158",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/159",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/159",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/16",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/16",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/160",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/160",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/161",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/161",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/162",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/162",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/163",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/163",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/17",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/17",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/18",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/18",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/19",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/19",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/2",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/2",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/20",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/20",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/21",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/21",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/22",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/22",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/23",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/23",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/24",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/24",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/25",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/25",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/26",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/26",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/27",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/27",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/28",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/28",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/29",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/29",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/3",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/3",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/30",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/30",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/31",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/31",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/32",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/32",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/33",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/33",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/34",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/34",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/35",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/35",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/36",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/36",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/37",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/37",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/38",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/38",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/39",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/39",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/4",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/4",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/40",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/40",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/41",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/41",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/42",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/42",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/43",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/43",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/44",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/44",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/45",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/45",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/46",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/46",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/47",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/47",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/48",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/48",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/49",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/49",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/5",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/5",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/50",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/50",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/51",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/51",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/52",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/52",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/53",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/53",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/54",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/54",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/55",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/55",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/56",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/56",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/57",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/57",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/58",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/58",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/59",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/59",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/6",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/6",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/60",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/60",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/61",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/61",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/62",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/62",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/63",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/63",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/64",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/64",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/65",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/65",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/66",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/66",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/67",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/67",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/68",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/68",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/69",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/69",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/7",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/7",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/70",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/70",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/71",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/71",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/72",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/72",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/73",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/73",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/74",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/74",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/75",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/75",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/76",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/76",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/77",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/77",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/78",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/78",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/79",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/79",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/8",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/8",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/80",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/80",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/81",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/81",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/82",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/82",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/83",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/83",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/84",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/84",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/85",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/85",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/86",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/86",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/87",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/87",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/88",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/88",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/89",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/89",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/9",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/9",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/90",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/90",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/91",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/91",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 1
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/92",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/92",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/93",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/93",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/94",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/94",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/95",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/95",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/96",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/96",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/97",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/97",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/98",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/98",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/99",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "formal",
+      "task_id": "HumanEval/99",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 2
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    }
+  ],
+  "overall": [
+    {
+      "suite": "humaneval",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "complete_tasks": 164,
+      "pass_at_1_pct": 83.13008130081302
+    },
+    {
+      "suite": "humaneval",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "complete_tasks": 164,
+      "pass_at_1_pct": 79.67479674796748
+    },
+    {
+      "suite": "humaneval_plus",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "en",
+      "complete_tasks": 164,
+      "pass_at_1_pct": 79.67479674796748
+    },
+    {
+      "suite": "humaneval_plus",
+      "model": "qwen-bilingual-v1:bf16",
+      "language": "zh",
+      "complete_tasks": 164,
+      "pass_at_1_pct": 76.42276422764228
+    }
+  ],
+  "comparison": [
+    {
+      "suite": "humaneval",
+      "model": "qwen-bilingual-v1:bf16",
+      "paired_tasks": 164,
+      "english_pass_at_1_pct": 83.13008130081302,
+      "chinese_pass_at_1_pct": 79.67479674796748,
+      "delta_pp": -3.4552845528455287,
+      "ci95_pp": [
+        -8.130081300813009,
+        1.2195121951219512
+      ]
+    },
+    {
+      "suite": "humaneval_plus",
+      "model": "qwen-bilingual-v1:bf16",
+      "paired_tasks": 164,
+      "english_pass_at_1_pct": 79.67479674796748,
+      "chinese_pass_at_1_pct": 76.42276422764228,
+      "delta_pp": -3.252032520325203,
+      "ci95_pp": [
+        -7.926829268292683,
+        1.2245934959348856
+      ]
+    }
+  ],
+  "bootstrap": {
+    "resamples": 5000,
+    "seed": 42
+  },
+  "translation_review": {
+    "method": "一位代理撰写，独立代理对照英文逐题复核",
+    "audit_sha256": "fa81369729a4f55407560ad5aa1f0c423785c10e957e584ae4d779aaa48cce88"
+  },
+  "pilot_gate": {
+    "evidence": [
+      {
+        "phase": "pilot",
+        "groups": [
+          {
+            "model": "qwen-bilingual-v1:bf16",
+            "language": "en",
+            "graded": 24,
+            "passed": 19
+          },
+          {
+            "model": "qwen-bilingual-v1:bf16",
+            "language": "zh",
+            "graded": 24,
+            "passed": 21
+          }
+        ],
+        "ceiling_reached": false,
+        "sha256": {
+          "manifest.json": "997be5f1fad5293c4db6b83ad69eec9d304ff71f1a7c3eaa3c4183f6f5c266df",
+          "replies.jsonl": "f59e4dfc6980b2c88a1aeea5f67bf777832f99ab0e50e18773f3015e69a7aca9",
+          "records.jsonl": "230e58203f1731a2b1586102f6553163fca0c924b1053de3d44cc7f0685ac946"
+        }
+      }
+    ],
+    "decision": null
+  },
+  "judge": {
+    "image": "python:3.12.12-slim@sha256:f3fa41d74a768c2fce8016b98c191ae8c1bacd8f1152870a3f9f87d350920b7c",
+    "worker_sha256": "497d67c35bcd604fce196c11f24fd90cccbf5f1bbb3a47759b4ed673a63a4d99",
+    "container_sha256": "4104ec747aabf4adc1b1e6eacadf980778d37d7ed8fbc984bf9d0a016a42c544",
+    "code_extraction_sha256": "0f628bd86c833668c548da6956872a17c5ae08832533d294a9fbc576379be5b4"
+  },
+  "infrastructure_errors": [],
+  "infrastructure_errors_this_run": []
+}

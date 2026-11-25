@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "models": [
+    {
+      "id": "qwen25-7b-instruct-base:bf16",
+      "backend": "ollama",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "base_url": "http://127.0.0.1:11434",
+      "enabled": true
+    }
+  ]
+}

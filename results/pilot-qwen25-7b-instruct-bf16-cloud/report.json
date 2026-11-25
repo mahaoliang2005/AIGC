@@ -1,0 +1,379 @@
+{
+  "stage": "pilot",
+  "coverage": {
+    "planned": 48,
+    "received": 48,
+    "unique_recorded": 48,
+    "unique_replies": 48,
+    "not_run": [],
+    "unexpected_keys": [],
+    "duplicate_keys": [],
+    "orphan_records": [],
+    "inconsistent_records": [],
+    "missing_replies": [],
+    "ungraded": {
+      "humaneval": [],
+      "humaneval_plus": []
+    }
+  },
+  "per_task": [
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/163",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/163",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/26",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/26",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 0
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/28",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/28",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/35",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/35",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/57",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/57",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/6",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/6",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/62",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/62",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/70",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "stage": "pilot",
+      "task_id": "HumanEval/70",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "received": 3,
+      "missing": 0,
+      "suites": {
+        "humaneval": {
+          "graded": 3,
+          "passed": 3
+        },
+        "humaneval_plus": {
+          "graded": 3,
+          "passed": 3
+        }
+      }
+    }
+  ],
+  "overall": [
+    {
+      "suite": "humaneval",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "complete_tasks": 8,
+      "pass_at_1_pct": 75.0
+    },
+    {
+      "suite": "humaneval",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "complete_tasks": 8,
+      "pass_at_1_pct": 87.5
+    },
+    {
+      "suite": "humaneval_plus",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "en",
+      "complete_tasks": 8,
+      "pass_at_1_pct": 75.0
+    },
+    {
+      "suite": "humaneval_plus",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "language": "zh",
+      "complete_tasks": 8,
+      "pass_at_1_pct": 87.5
+    }
+  ],
+  "comparison": [
+    {
+      "suite": "humaneval",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "paired_tasks": 8,
+      "english_pass_at_1_pct": 75.0,
+      "chinese_pass_at_1_pct": 87.5,
+      "delta_pp": 12.5,
+      "ci95_pp": [
+        0.0,
+        37.5
+      ]
+    },
+    {
+      "suite": "humaneval_plus",
+      "model": "qwen25-7b-instruct-base:bf16",
+      "paired_tasks": 8,
+      "english_pass_at_1_pct": 75.0,
+      "chinese_pass_at_1_pct": 87.5,
+      "delta_pp": 12.5,
+      "ci95_pp": [
+        0.0,
+        37.5
+      ]
+    }
+  ],
+  "bootstrap": {
+    "resamples": 5000,
+    "seed": 42
+  },
+  "translation_review": null,
+  "pilot_gate": null,
+  "judge": {
+    "image": "python:3.12.12-slim@sha256:f3fa41d74a768c2fce8016b98c191ae8c1bacd8f1152870a3f9f87d350920b7c",
+    "worker_sha256": "497d67c35bcd604fce196c11f24fd90cccbf5f1bbb3a47759b4ed673a63a4d99",
+    "container_sha256": "4104ec747aabf4adc1b1e6eacadf980778d37d7ed8fbc984bf9d0a016a42c544",
+    "code_extraction_sha256": "0f628bd86c833668c548da6956872a17c5ae08832533d294a9fbc576379be5b4"
+  },
+  "infrastructure_errors": [],
+  "infrastructure_errors_this_run": []
+}

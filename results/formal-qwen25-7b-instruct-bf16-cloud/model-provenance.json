@@ -1,0 +1,63 @@
+{
+  "source": {
+    "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "local_path": "/root/autodl-tmp/qwen-work/models/Qwen2.5-7B-Instruct",
+    "downloads": {
+      "model-00001-of-00004.safetensors": {
+        "size": 3945441440,
+        "sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7"
+      },
+      "model-00002-of-00004.safetensors": {
+        "size": 3864726352,
+        "sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185"
+      },
+      "model-00003-of-00004.safetensors": {
+        "size": 3864726424,
+        "sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5"
+      },
+      "model-00004-of-00004.safetensors": {
+        "size": 3556377672,
+        "sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd"
+      }
+    }
+  },
+  "archive_sha256": "a2df13d962d6d9191c53be71935af327fdb7fa30263f8f5da32f355d3821e1f9",
+  "base_weight_shas_verified": true,
+  "model": "qwen25-7b-instruct-base:bf16",
+  "model_digest": "5bf417ba57eea70eff30b9bbc6cfaca089664af46cd60bb5fe2f05385a2f1790",
+  "comparison_model": "qwen-bilingual-v1:bf16",
+  "comparison_model_digest": "f3fe6c255a17a9792e1fc165dd4bb698851d06a6063588e1d021acb2a8406014",
+  "gguf": "/root/qwen-work-handoff/base-bf16.19Kou8/qwen25-7b-instruct-bf16.gguf",
+  "precision": "BF16",
+  "converter": "llama.cpp b5400",
+  "adapter_applied": false,
+  "tokenizer_metadata_checked": [
+    "tokenizer.ggml.bos_token_id",
+    "tokenizer.ggml.eos_token_id",
+    "tokenizer.ggml.merges",
+    "tokenizer.ggml.model",
+    "tokenizer.ggml.padding_token_id",
+    "tokenizer.ggml.pre",
+    "tokenizer.ggml.token_type",
+    "tokenizer.ggml.tokens"
+  ],
+  "template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "prompt_sha256": "ee635a5beaf3fecc523a3cf8aef45828a6352232857159bda657c285da96f6e6",
+  "judge": {
+    "image": "python:3.12.12-slim@sha256:f3fa41d74a768c2fce8016b98c191ae8c1bacd8f1152870a3f9f87d350920b7c",
+    "worker_sha256": "497d67c35bcd604fce196c11f24fd90cccbf5f1bbb3a47759b4ed673a63a4d99",
+    "container_sha256": "4104ec747aabf4adc1b1e6eacadf980778d37d7ed8fbc984bf9d0a016a42c544",
+    "code_extraction_sha256": "0f628bd86c833668c548da6956872a17c5ae08832533d294a9fbc576379be5b4"
+  },
+  "seed": 42,
+  "options": {
+    "temperature": 0.2,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0,
+    "num_ctx": 4096,
+    "num_predict": 2048
+  }
+}
